@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.top-section {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+   
+
+.brand > h1 {
+    color: aliceblue;
+    font-size: 70px;
+}
+
+.brand > h4 {
+    color: aliceblue;
+}
+h1 + svg {
+    color: aliceblue;
+    width: 100px; 
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo  img {
+    border-radius: 50%;
+}
+
+.logo  h3 {
+    color: aliceblue;
+}
+
+nav {
+    background-color: rgb(223, 206, 209);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    justify-content:end;
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+
+nav  li {
+list-style: none;
+display: inline-block;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+nav li span {
+    padding-left: 10px;
+}
+
+li a {
+    padding: 5px;
+    background-color: aliceblue;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.takeout a {
+    background-color: rgb(204, 132, 132);
+}
+
+section {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(238, 222, 224);
+    border-radius: 5px;
+}
+
+.main  h1 {
+    font-size: xx-large;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.food img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.rice, .soups {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.swallow, .meat {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.swallow img, .meat img {
+    width:150px ;
+    height: 150px;
+}
+
+.hand, .spoon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.take-out {
+    background-color: aliceblue;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;   
+}
+
+.food:hover .afang,
+.food:hover .egusi,
+.food:hover .okro,
+.food:hover .ewedu,
+.food:hover .gbegiri,
+.food:hover .ewedu-gbegiri,
+.food:hover .bitter-leaf,
+.food:hover .banga,
+.food:hover .vegetable,
+.food:hover .eba,
+.food:hover .fufu,
+.food:hover .amala,
+.food:hover .semo,
+.food:hover .pounded-yam,
+.food:hover .fried,
+.food:hover .jollof,
+.food:hover .white,
+.food:hover .beef,
+.food:hover .chicken,
+.food:hover .fish,
+.food:hover .pkomo{
+    bottom: 50px;
+    opacity: 1;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+article h1 {
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.about-words {
+    width: 40%;
+    float: left;
+}
+
+.about-image {
+    width: 60%;
+}
+article .about {
+    margin: 5px;
+    float: right;
+}
+
+.section-top-div h4 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.section-mid-div {
+    background-color: rgb(90, 71, 74);
+    border-radius: 10px;
+}
+
+.section-mid-div h3 {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.section-mid-div li {
+    padding: 5px;
+    color: aliceblue;
+}
+
+.section-bottom-div h1 {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.about img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.about {
+    background-color: rgb(156, 141, 143);
+    border-radius: 10px;
+    display: flex;
+}
+ .about-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .about-image h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: aliceblue;
+    text-align: center;
+ }
+
+ footer {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+ }
+
+ /*------------------------TAKE OUT-----------------*/
+
+ .food-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+ }
+
+ .food-container ion-icon {
+    font-size: 25px;
+    color: aqua;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+ }
+
+ .food-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid pink ;
+    margin: 0 auto;
+ }
+
+ .food-title {
+    width: 45%;
+ }
+
+ .food-price {
+    width: 15%;
+    display: flex;
+    align-items: center;
+ }
+
+ .food-quantity {
+    width: 30%;
+    border-bottom: 1px solid pink;
+    display: flex;
+    align-items: center;
+ }
+
+ .food-total {
+    width: 10%;
+    border-bottom: 1px solid pink ;
+    display: flex;
+    align-items: center;
+ }
+
+ .food-products {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+ }
